@@ -38,7 +38,7 @@ public class EmployeeService {
 
 	public String deleteById(long id) {
 		repository.deleteById(id);
-		return "Deleted Successfully";
+		return "Deleted Success";
 
 	}
 }
