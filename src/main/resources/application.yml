@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: spring.demo
+
+server:
+  port: 8080
+  servlet:
+    context-path: /springboot-demo/onboard/api/employeeproject
+
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: env,health
+  cors:
+    allowed-methods: GET,POST
